@@ -84,7 +84,7 @@ public class ArcheType {
 
     @Override
     public String toString() {
-        return "Car=[" + "id : " + id + " model : " + model + " document : " + document + " insurances : " + insurances
-                + " owners : " + owners + "]";
+        return "ArcheType{" + "Name=" + Name + ", Use=" + Use + ", Desc=" + Desc + '}';
     }
+
 }
