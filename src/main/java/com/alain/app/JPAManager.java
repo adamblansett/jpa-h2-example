@@ -17,13 +17,6 @@ public class JPAManager {
 		EntityTransaction transaction = entityManager.getTransaction();
 		transaction.begin();
 
-		try {
-		
-		
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		transaction.commit();
 	}
 	
